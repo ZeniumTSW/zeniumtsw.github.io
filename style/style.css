@@ -3,10 +3,19 @@
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 900;
 }
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
 .jumbotron {
-  background: url("https://habrastorage.org/files/1b5/adf/df4/1b5adfdf4f1c4d02a6a545e2dfd50a06.jpg")
-    no-repeat;
-  background-position: center;
-  background-size: 100%;
-  height: 50%;
+  background: url("https://www.gamedevmarket.net/wp-content/uploads/b12e43df8bc81a989cf8b296c64fe362.jpg")
+    no-repeat scroll center center black;
+  box-sizing: border-box;
+  height: 65%;
+  min-height: 65%;
+  overflow: hidden;
+  position: relative;
+  background-size: cover !important;
 }
