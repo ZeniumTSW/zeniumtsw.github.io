@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap");
 body {
-    background-size: 100%;
-}
-.container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background: url("https://i.ytimg.com/vi/on9nwbZngyw/maxresdefault.jpg")
+    no-repeat;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
 }
 * {
   font-family: "Montserrat Alternates", sans-serif;
