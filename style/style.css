@@ -6,6 +6,7 @@
 body,
 html {
   height: 100%;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
@@ -13,8 +14,6 @@ html {
   background: url("https://www.gamedevmarket.net/wp-content/uploads/b12e43df8bc81a989cf8b296c64fe362.jpg")
     no-repeat scroll center center black;
   box-sizing: border-box;
-  height: 65%;
-  min-height: 65%;
   overflow: hidden;
   position: relative;
   background-size: cover !important;
