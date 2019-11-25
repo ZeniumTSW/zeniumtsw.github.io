@@ -53,7 +53,7 @@
   transition: width 0.2s ease-out; /*задаём время анимации*/
 }
 .license {
-  width: 275px;
+  width: 300px;
 }
 
 .nav-link:hover:after,
@@ -69,13 +69,16 @@
   .nav-link:focus:after {
     width: 40%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
   }
+  ul {
+    margin-left: 13px;
+  }
 }
 @media screen and (max-width: 900px) {
   .license {
     width: 225px;
   }
   .main-text {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -93,6 +96,11 @@
     font-size: 15px;
   }
 }
+@media screen and (max-width: 800px) {
+  .main-image {
+    text-align: center;
+  }
+}
 @media screen and (max-width: 750px) {
   .main-text {
     font-size: 22px;
@@ -104,29 +112,12 @@
   }
 }
 @media screen and (max-width: 550px) {
-  .license {
-    width: 125px;
-  }
   .main-text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 450px) {
   .main-text {
-    font-size: 13px;
-  }
-  .license {
-    width: 100px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .main-text {
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 275px) {
-  .main-text {
-    font-size: 11px;
+    font-size: 15px;
   }
 }
