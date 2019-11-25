@@ -53,20 +53,18 @@
   transition: width 0.2s ease-out; /*задаём время анимации*/
 }
 .license {
-  width: 300px;
+  width: 325px;
 }
 
-.nav-link:hover:after,
-.nav-link:focus:after {
+.nav-link:hover:after{
   width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
 }
 .main-image {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 990px) {
-  .nav-link:hover:after,
-  .nav-link:focus:after {
+  .nav-link:hover:after{
     width: 40%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
   }
   ul {
@@ -113,11 +111,6 @@
 }
 @media screen and (max-width: 550px) {
   .main-text {
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .main-text {
-    font-size: 15px;
+    font-size: 17px;
   }
 }
