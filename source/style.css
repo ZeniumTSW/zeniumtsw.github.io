@@ -33,6 +33,9 @@
     rgba(38, 128, 190, 0.9) 100%
   );
 }
+.nav-item {
+  padding-right: 40px;
+}
 .nav-link {
   position: relative;
   cursor: pointer;
