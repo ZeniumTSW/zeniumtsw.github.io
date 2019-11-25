@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+.main-b {
+  background: url("/resources/main-bg.jpg") rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-size: cover;
+}
+* {
+  font-family: Montserrat;
+  scroll-behavior: smooth;
+}
+.block-left {
+  margin: auto;
+  margin-top: 40px;
+  text-align: right;
+}
+
+.backg-blue {
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    color-stop(0, rgba(59, 169, 238, 0.85)),
+    to(rgba(38, 128, 190, 0.9))
+  );
+  background: -o-linear-gradient(
+    right,
+    rgba(59, 169, 238, 0.85) 0,
+    rgba(38, 128, 190, 0.9) 100%
+  );
+  background: linear-gradient(
+    right,
+    rgba(59, 169, 238, 0.85) 0,
+    rgba(38, 128, 190, 0.9) 100%
+  );
+}
+.nav-link {
+  position: relative;
+  cursor: pointer;
+  line-height: 2; /*задаём высоту строки*/
+  text-decoration: none; /*убираем подчёркивание*/
+}
+.nav-link:after {
+  display: block;
+  position: absolute;
+  left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+  width: 0; /*задаём длинну линии до наведения курсора*/
+  height: 2px; /*задаём ширину линии*/
+  background-color: white; /*задаём цвет линии*/
+  content: "";
+  transition: width 0.2s ease-out; /*задаём время анимации*/
+}
+.license {
+  width: 275px;
+}
+
+.nav-link:hover:after,
+.nav-link:focus:after {
+  width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+.main-image {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  .nav-link:hover:after,
+  .nav-link:focus:after {
+    width: 40%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+  }
+}
+@media screen and (max-width: 900px) {
+  .license {
+    width: 225px;
+  }
+  .main-text {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .license {
+    width: 175px;
+  }
+  .main-text {
+    font-size: 25px;
+  }
+  .block-left {
+    margin-top: 25px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .license {
+    width: 125px;
+  }
+  .main-text {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-text {
+    font-size: 15px;
+  }
+  .license {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  .main-text {
+    font-size: 13px;
+  }
+}
