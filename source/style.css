@@ -93,17 +93,27 @@
     font-size: 15px;
   }
 }
+@media screen and (max-width: 750px) {
+  .main-text {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .main-text {
+    font-size: 20px;
+  }
+}
 @media screen and (max-width: 550px) {
   .license {
     width: 125px;
   }
   .main-text {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 450px) {
   .main-text {
-    font-size: 15px;
+    font-size: 13px;
   }
   .license {
     width: 100px;
@@ -111,12 +121,12 @@
 }
 @media screen and (max-width: 320px) {
   .main-text {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
 @media screen and (max-width: 275px) {
   .main-text {
-    font-size: 13px;
+    font-size: 11px;
   }
 }
